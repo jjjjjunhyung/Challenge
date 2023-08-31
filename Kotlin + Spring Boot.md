@@ -1,2 +1,3 @@
-### 1. Soft Delete를 위한 MYSQL constraint
-### 2. Entity race condition 처리
+### 1. Soft Delete
+### 2. Entity race condition
+### 3. JPA N+1
