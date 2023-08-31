@@ -1,4 +1,4 @@
-### 1. Authorization
+### 1. Authentication
 - challenge <br>
 - solution <br>
 
