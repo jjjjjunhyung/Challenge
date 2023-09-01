@@ -10,4 +10,6 @@
  Eks rolling update 사용시 안정적이고 서비스 가용성을 유지할 수 있지만 배포시간이 길고 롤백이 어려움 <br>
 - options <br>
   - blue/green <br>
-  - canary
+  - canary <br>
+  - A/B testing <br>
+- challenge
