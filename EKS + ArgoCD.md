@@ -4,5 +4,8 @@
  배포 과정을 일관화된 방법으로 체계적으로 관리하고 자동화할 필요성 <br>
 - solution <br>
 
-### 2. 배포전략
-### 3. Auto Scaling
+### 2. Auto Scaling
+### 3. 배포전략
+- challenge <br>
+ Eks rolling update 사용시 안정적이고 서비스 가용성을 유지할 수 있지 배포시간이 길고 롤백이 어려움 <br>
+- options <br>
