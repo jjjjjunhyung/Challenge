@@ -3,6 +3,8 @@
  Multi region, multi project로 구성되어 있는 eks 서비스들을 수동으로 sync 하기 어려움 <br>
  배포 과정을 일관화된 방법으로 체계적으로 관리하고 자동화할 필요성 <br>
 - solution <br>
+ CircleCi를 통한 애플리케이션 빌드 후 ArgoCD를 통한 K8s 배포
+- pros and cons <br>
 
 ### 2. Auto Scaling
 - challenge <br>
