@@ -8,6 +8,6 @@
 
 ### 2. VPC internal network
 - challenge <br>
- 클라우드 내 여러 리소스를 사용하는 과정에서 NAT Gateway를 통하는 경우 Data Transfer/Processing 비용이 예상치 못하게 발생 가능 <br>
+ 클라우드 내 여러 리소스를 사용하는 과정에서 NAT Gateway를 통하는 경우, Region 간 통신, AZ 간 통신 등에서 Data Transfer/Processing 비용이 예상치 못하게 발생 가능 <br>
 - solution <br>
 - pros and cons <br>
