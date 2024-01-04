@@ -19,4 +19,3 @@
   - blue/green <br>
   - canary <br>
   - A/B testing <br>
-- challenge
