@@ -17,4 +17,7 @@
     - LockModeType.PESSIMISTIC_READ
     - LockModeType.PESSIMISTIC_WRITE
     - LockModeType.PESSIMISTIC_FORCE_INCREMENT
-### 3. JPA N+1
+
+### 3. JVM GC
+
+### 4. JPA N+1
