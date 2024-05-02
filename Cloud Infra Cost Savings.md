@@ -7,8 +7,8 @@
  docker buildx 를 통한 multi architecture build 및 k8s plugin의 arm architecture 호환 체크
 - pros and cons <br>
   - x86 architecture 기반 컴퓨팅 서비스 대비 고성능 저비용
-  - arm 환경에서 기동한 어플리케이의 불안정성 이슈 존재
-  - arm 환경에서 library 및 package 를 동일하게 지원하는지 확인 필요
+  - arm 환경에서 기동한 어플리케이션의 불안정성 이슈 존재
+  - arm 환경에서 library 및 package를 동일하게 지원하는지 확인 필요
 
 ### 2. VPC internal network
 - challenge <br>
