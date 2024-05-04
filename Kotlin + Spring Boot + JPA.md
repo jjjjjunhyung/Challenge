@@ -1,7 +1,7 @@
 ### 1. Soft Delete
 - challenge <br>
  로깅 및 디버깅을 위해 특정 테이블에서의 soft delete 기능 필요 <br>
- 특정 칼럼의 값과 관련하여 삭제되지 않은 entity들의 unique는 보장되어야 하되, 삭제된 entity들의 duplicate은 허용되어야 하는 상황 <br>
+ 특정 칼럼의 값과 관련하여 삭제되지 않은 entity들의 uniqueness는 보장되어야 하되, 삭제된 entity들의 duplicate은 허용되어야 하는 상황 <br>
  Mysql은 Postgre SQL과 다르게 partial index를 지원하지 않음 <br>
 - solution <br>
  기존에 존재하던 name 칼럼과 notArchived(1 or null) 칼럼을 새롭게 추가하여 unique constraint 설정
