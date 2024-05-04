@@ -7,7 +7,7 @@
 - pros & cons <br>
   - pros
     - 배포 과정을 조금 더 체계적으로 관리하고 단일화하여 human error 방지
-    - 현재 배포 환경의 상태를 쉽게 파악할 수 있어 안정적으로 production 환경에 배포 가능
+    - 배포 환경이 버전별로 관리되기 떄문에 배포 상태를 쉽게 파악할 수 있어 안정적으로 production 환경에 배포 가능
 
 ### 2. Auto Scaling
 - challenge <br>
