@@ -4,7 +4,10 @@
  배포 과정을 일관화된 방법으로 체계적으로 관리하고 자동화할 필요성 <br>
 - solution <br>
  CircleCi를 통한 애플리케이션 빌드 후 ArgoCD를 통한 k8s 배포
-- pros and cons <br>
+- pros & cons <br>
+  - pros
+    - 배포 과정을 조금 더 체계적으로 관리하고 단일화하여 human error 방지
+    - 현재 배포 환경의 상태를 쉽게 파악할 수 있어 안정적으로 production 환경에 배포 가능
 
 ### 2. Auto Scaling
 - challenge <br>
