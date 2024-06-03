@@ -36,3 +36,7 @@
 ### 4. JPA N+1
 - challenge <br>
 - solution <br>
+
+### 5. JPA Cache
+- challenge <br>
+- solution <br>
