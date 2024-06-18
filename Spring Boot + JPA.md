@@ -9,7 +9,7 @@
 ### 2. Entity race condition
 - challenge <br>
 - solution <br>
- JPA의 @Version 데코레이터(Long, Integer, Short, Timestamp)를 사용하여 Optimistic Lock 방식으로 엔티티의 버전을 관리
+ ##### JPA의 @Version 데코레이터(Long, Integer, Short, Timestamp)를 사용하여 Optimistic Lock 방식으로 엔티티의 버전을 관리
   - Default: None
   - LockMode.OPTIMISTIC
   - LockMode.OPTIMISTIC_FORCE_INCREMENT
@@ -17,6 +17,7 @@
     - LockModeType.PESSIMISTIC_READ
     - LockModeType.PESSIMISTIC_WRITE
     - LockModeType.PESSIMISTIC_FORCE_INCREMENT
+ ##### TransactionSynchronizationManager, TransactionSynchronization을 사용하여 afterCommit 함수 override
 
 ### 3. JVM GC
 - challenge <br>
