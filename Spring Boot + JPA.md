@@ -22,6 +22,9 @@
     - LockModeType.PESSIMISTIC_WRITE
     - LockModeType.PESSIMISTIC_FORCE_INCREMENT
  ###### TransactionSynchronizationManager, TransactionSynchronization을 사용하여 afterCommit 함수 override
+  - 트랜잭션이 시작될 때 TransactionSynchronization을 등록
+  - 트랜잭션 커밋 전·후에 수행할 작업을 beforeCommit, afterCommit 메서드에 정의
+  - 복잡한 트랜잭션 흐름에서 특정 작업을 보장할 수 있음
 
 ### 3. JVM GC
 - challenge <br>
