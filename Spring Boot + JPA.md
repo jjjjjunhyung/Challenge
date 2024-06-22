@@ -8,6 +8,10 @@
 
 ### 2. Entity race condition
 - challenge <br>
+  - Concurrency Issue <br>
+    여러 트랜잭션이 동일한 데이터를 동시에 업데이트하려고 할 때, 데이터 불일치가 발생할 수 있음
+  - Locking <br>
+     여러 트랜잭션이 동시에 데이터를 업데이트하면 충돌이 발생할 수 있음
 - solution <br>
  ###### JPA의 @Version 데코레이터(Long, Integer, Short, Timestamp)를 사용하여 Optimistic Lock 방식으로 엔티티의 버전을 관리
   - Default: None
