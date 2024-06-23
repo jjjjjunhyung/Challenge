@@ -17,7 +17,7 @@
   - Optimistic Lock 방식
     - Default(@Version): 트랜잭션이 커밋될 때 현재 버전과 데이터베이스의 버전을 비교하여 충돌 여부를 확인
     - LockMode.OPTIMISTIC: 트랜잭션 동안 엔티티를 읽기 가능 & 쓰기 불가능 상태로 lock하여 다른 트랜잭션이 엔티티를 수정할 수 없도록 함
-    - LockMode.OPTIMISTIC_FORCE_INCREMENT: 트랜잭션 동안 엔티티를 읽기 불가능 & 쓰기 불가능 상태로 lock하여 다른 트랜잭션이 엔티티를 엔티티를 수정할 수 없도록 함
+    - LockMode.OPTIMISTIC_FORCE_INCREMENT: 트랜잭션 동안 엔티티를 읽기 불가능 & 쓰기 불가능 상태로 lock하여 다른 트랜잭션이 엔티티를 수정할 수 없도록 함
   - Pessimistic Lock 방식 (DB Lock + Query)
     - LockModeType.PESSIMISTIC_READ
     - LockModeType.PESSIMISTIC_WRITE
