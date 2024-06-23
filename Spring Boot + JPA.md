@@ -14,10 +14,14 @@
      Concurrency Issue를 해결하기 위해 Locking 메커니즘을 사용할 때, 충돌 혹은 교착상태가 발생할 수 있음
 - solution <br>
  ###### JPA의 @Version 데코레이터(Long, Integer, Short, Timestamp)를 사용하여 Optimistic Lock 방식으로 엔티티의 버전을 관리
+  - Lock 종류
+    - Read: 트랜잭션 동안 엔티티를 읽기 가능 & 쓰기 불가능 상태로 lock하여 다른 트랜잭션이 엔티티를 수정할 수 없도록 함
+    - Write: 트랜잭션 동안 엔티티를 읽기 불가능 & 쓰기 불가능 상태로 lock하여 다른 트랜잭션이 엔티티를 수정할 수 없도록 함
+    - Force Increment: 트랜잭션 동안 엔티티를 읽기 불가능 & 쓰기 불가능 상태로 lock하여 다른 트랜잭션이 엔티티를 수정할 수 없도록 함 + 트랜잭션이 끝날 때 엔티티의 버전을 강제로 증가
   - Optimistic Lock 방식
-    - Default(@Version): 트랜잭션이 커밋될 때 현재 버전과 데이터베이스의 버전을 비교하여 충돌 여부를 확인
-    - LockMode.OPTIMISTIC: 트랜잭션 동안 엔티티를 읽기 가능 & 쓰기 불가능 상태로 lock하여 다른 트랜잭션이 엔티티를 수정할 수 없도록 함
-    - LockMode.OPTIMISTIC_FORCE_INCREMENT: 트랜잭션 동안 엔티티를 읽기 불가능 & 쓰기 불가능 상태로 lock하여 다른 트랜잭션이 엔티티를 수정할 수 없도록 함
+    - Default(@Version)
+    - LockMode.OPTIMISTIC
+    - LockMode.OPTIMISTIC_FORCE_INCREMENT
   - Pessimistic Lock 방식 (DB Lock + Query)
     - LockModeType.PESSIMISTIC_READ
     - LockModeType.PESSIMISTIC_WRITE
