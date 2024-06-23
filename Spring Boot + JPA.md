@@ -14,9 +14,10 @@
      Concurrency Issue를 해결하기 위해 Locking 메커니즘을 사용할 때, 충돌 혹은 교착상태가 발생할 수 있음
 - solution <br>
  ###### JPA의 @Version 데코레이터(Long, Integer, Short, Timestamp)를 사용하여 Optimistic Lock 방식으로 엔티티의 버전을 관리
-  - Default: None
-  - LockMode.OPTIMISTIC
-  - LockMode.OPTIMISTIC_FORCE_INCREMENT
+  - Optimistic Lock 방식
+    - Default(@Version): 트랜잭션이 커밋될 때 현재 버전과 데이터베이스의 버전을 비교하여 충돌 여부를 확인
+    - LockMode.OPTIMISTIC
+    - LockMode.OPTIMISTIC_FORCE_INCREMENT
   - Pessimistic Lock 방식 (DB Lock + Query)
     - LockModeType.PESSIMISTIC_READ
     - LockModeType.PESSIMISTIC_WRITE
