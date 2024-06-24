@@ -18,11 +18,11 @@
     - Read: 트랜잭션 동안 엔티티를 읽기 가능 & 쓰기 불가능 상태로 lock하여 다른 트랜잭션이 엔티티를 수정할 수 없도록 함
     - Write: 트랜잭션 동안 엔티티를 읽기 불가능 & 쓰기 불가능 상태로 lock하여 다른 트랜잭션이 엔티티를 수정할 수 없도록 함
     - Force Increment: 트랜잭션 동안 엔티티를 읽기 불가능 & 쓰기 불가능 상태로 lock하여 다른 트랜잭션이 엔티티를 수정할 수 없도록 함 + 트랜잭션이 끝날 때 엔티티의 버전을 강제로 증가
-  - Optimistic Lock 방식
+  - Optimistic Lock
     - Default(@Version)
     - LockMode.OPTIMISTIC
     - LockMode.OPTIMISTIC_FORCE_INCREMENT
-  - Pessimistic Lock 방식 (DB Lock + Query)
+  - Pessimistic Lock (DB Lock + Query)
     - LockModeType.PESSIMISTIC_READ
     - LockModeType.PESSIMISTIC_WRITE
     - LockModeType.PESSIMISTIC_FORCE_INCREMENT
