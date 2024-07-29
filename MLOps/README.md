@@ -1,1 +1,1 @@
-![](../static/mlops.jpg)
+![](../static/MLOps.jpg)
