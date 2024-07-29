@@ -1,2 +1,2 @@
 # Backend Engineer Roadmap
-![](static/backend.jpg)
+![](static/Backend.jpg)
