@@ -1,1 +1,1 @@
-
+![](../../static/SemanticVideoSearch.jpg)
